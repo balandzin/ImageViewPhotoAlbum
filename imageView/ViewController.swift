@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         animation()
         //imageView.image = image
     }
-        func animation ( ) {
+        func animation () {
             UIView.animate(withDuration: 2, delay: 2, options: [.repeat, .autoreverse, .curveEaseIn], animations: {
                 self.imageView.alpha = 0
         })
